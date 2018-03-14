@@ -1,11 +1,11 @@
 .container {
-  width: 1080px;
+  width: 300px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .column {
-  float: left;
-  width: 300px;
+  width: 250px;
   border: 5px solid PowderBlue;
   margin: 10px;
   padding: 5px;
@@ -16,7 +16,7 @@ img {
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 300px;
+width: 250px;
 }
 
 .column h2 {
@@ -34,4 +34,23 @@ h1 {
 
 body {
   background-color: GhostWhite;
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    float: left;
+    width: 300px;
+    border: 5px solid PowderBlue;
+    margin: 10px;
+    padding: 5px;
+    background-color:Plum;
+  }
+  .container {
+    width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  img {
+    width: 300px;
+  }
 }
