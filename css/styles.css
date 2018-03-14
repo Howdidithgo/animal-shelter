@@ -1,22 +1,23 @@
 .container {
-  width: 300px;
-  margin: 0 auto;
-  text-align: center;
+  width: 100vw;
+  margin: auto;
 }
 
 .column {
-  width: 250px;
+  float: left;
+  width: 80vw;
   border: 5px solid PowderBlue;
-  margin: 10px;
+  margin: 5px;
   padding: 5px;
   background-color:Plum;
+  text-align: center;
 }
 
 img {
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 250px;
+width: 80vw;
 }
 
 .column h2 {
